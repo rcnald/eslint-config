@@ -1,0 +1,45 @@
+{
+  "name": "@rcnald/eslint-config",
+  "version": "0.0.6",
+  "description": "personal config for eslint v9 based on neostandard, using prettier",
+  "keywords": [
+    "eslint"
+  ],
+  "homepage": "https://github.com/rcnald/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/rcnald/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcnald/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "Ronaldo Junior",
+  "type": "module",
+  "main": "base.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^16.0.0",
+    "neostandard": "^0.12.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1"
+  }
+}
