@@ -1,5 +1,3 @@
-// @ts-check
-
-import config from './base.js'
+import config from './dist/base.mjs'
 
 export default config
